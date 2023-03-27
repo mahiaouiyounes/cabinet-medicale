@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> medical Clinic </title>
+<link rel="stylesheet" href="younes project.css"> 
+<link rel="icon" type="image" href="heart.png">
+<style>
+    *{
+    padding:  0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(jeune-homme-medecin-patient-mesurant-pression-arterielle.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.bonde{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.bonde ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.bonde ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bonde ul li::after{
+    content: "" ;
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0%;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.bonde ul li:hover::after{
+    width: 100%;
+
+}
+
+.ecrire{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.ecrire h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.ecrire p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid #009688;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: hidden;
+}
+
+.color{
+    color:#fff;
+    text-decoration-line: none;
+}
+
+.banner1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(jeune-beau-medecin-dans-peignoir-medical-stethoscope.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.banner5{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(contacte.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.pinfo{
+    width: 30%;
+    height: 50%;
+    text-align: inherit;  
+    color: #fff;
+}
+
+.banner2{
+    width: 100%;
+    background-image: url(jeune-homme-medecin-patient-mesurant-pression-arterielle.jpg ) ;
+}
+
+
+.likebonde{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.medicale{
+    border: solid #000;
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+    <div class="banner5">
+
+        <div class="bonde">
+            <img src="heart.png" class="logo">
+            <ul>
+                <li><a href="younes project.html">Home</a></li>
+                <li><a href="younes project1.html">About</a></li>
+                <li><a href="younes project2.html">medical equipments</a></li>
+                <li><a href="younes project3.html">Gallery</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="younes project5.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="ecrire"> 
+            <h1> Contact </h1>
+            <P>nimiro de telephone :0792940902 / 0554184209 </P>
+            <p>ladress : division 341 N° 59 bendaoud-bir el djir ORAN </p>
+            <p>page facebook : عيادة طبية الطب الداخلي.جراحة و امراض القلب</p>
+            <p>email : mahiaoui72@yahoo.fr</p>
+
+        </div>
+
+        <div class="pinfo">
+            <marquee>
+            <p>this site has been programmed by : mahiaoui.y<br> cantact : 0699805564 </p>
+            </marquee>
+
+        </div>
+
+
+    </div>    
+</body>
+
+</html>
